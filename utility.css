@@ -1,0 +1,49 @@
+.border{
+    /* border: 2px solid red; */
+    border: none;
+    margin: 3px;
+    border-radius: 8px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+}
+.invert{
+    filter: invert(1);
+}
+.bggrey{
+    background-color: #121212;
+}
+.lightgrey{
+    background-color: #292929
+}
+.space-between{
+    justify-content: space-between;
+}
+.space-around{
+    justify-content: space-around;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+.sticky{
+    position: sticky;
+}
+.fixed{
+    position: fixed;
+}
+.wrap{
+    flex-wrap: wrap;
+}

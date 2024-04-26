@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left flex-column">
+            <div class="home border bggrey flex-column justify-center">
+                <div class="close absolute">
+                    <img src="SVG/close.svg" class="invert" alt="">
+                </div>
+                <div class="logo">
+                    <img src="SVG/logo.svg" class="invert" alt="">
+                </div>
+                <ul>
+                    <li class="flex items-center"><img src="SVG/home.svg" class="invert" alt="Home">
+                        <div style="color: white;">Home</div>
+                    </li>
+                    <li class="flex items-center"><img src="SVG/search.svg" class="invert" alt="Search">
+                        <div>Search</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="library border bggrey">
+                <header class="lib flex space-between items-center">
+                    <div class="left-lib flex items-center">
+                        <div><img class="invert" src="SVG/library.svg" alt=""></div>
+                        <div>Your Library</div>
+                    </div>
+                    <div class="right-lib">
+                        <img class="invert" src="SVG/plus.svg" alt="">
+                    </div>
+                </header>
+                <div class="scrollbar">
+                    <div class="songlist">
+                        <ul class="song-cards">
+
+                        </ul>
+                    </div>
+                    <div class="playlist flex-column ">
+                        <div class="playlist-content-1">Create your first playlist</div>
+                        <div class="playlist-content-2">It's easy, we'll help you</div>
+                        <div class="create-playlist">
+                            <button class="playlist-button">
+                                Create playlist
+                            </button>
+                        </div>
+                    </div>
+                    <div class="playlist flex-column podcast">
+                        <div class="playlist-content-1">Let's find some podcasts to follow</div>
+                        <div class="playlist-content-2">We'll keep you updated on new episodes</div>
+                        <div class="create-playlist">
+                            <button class="playlist-button">
+                                Browse podcasts
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer">
+                    <div>Legal</div>
+                    <div>Safety and Privacy Center</div>
+                    <div>Privacy Policies</div>
+                    <div>Cookies</div>
+                    <div>About Ads</div>
+                    <div>Accessibility</div>
+                    <div>Cookies</div>
+                </div>
+                <button class="lang bggrey flex items-center">
+                    <img class="invert" src="SVG/lang.svg" alt="">
+                    <div>English</div>
+                </button>
+            </div>
+        </div>
+        <div class="right border bggrey">
+            <div class="header border flex space-between items-center ">
+                <div class="hamburger">
+                    <img src="SVG/Hamburger.svg" class="invert" alt="">
+                </div>
+                <div class="left-button flex">
+                    <button class="top-bar-back-button">
+                        <img src="SVG/back-button.svg" alt="">
+                    </button>
+                    <button class="top-bar-forward-button">
+                        <img src="SVG/forward-button.svg" alt="">
+                    </button>
+                </div>
+                <div class="right-button">
+                    <button class="signup signin bggrey">
+                        Sign up
+                    </button>
+                    <button class="login signin">
+                        Log in
+                    </button>
+                </div>
+            </div>
+            <div class="section border">
+                <div class="gradient">
+                    <div class="detail flex space-between items-center">
+                        <div class="artist">
+                            Popular artists
+                        </div>
+                        <div class="show">
+                            Show all
+                        </div>
+                    </div>
+                    <div class="cards flex border">
+                        
+                    </div>
+                </div>
+
+
+                <div class="detail albums flex space-between items-center">
+                    <div class="artist">
+                        Popular albums
+                    </div>
+                    <div class="show">
+                        Show all
+                    </div>
+                </div>
+                <div class="cards flex border">
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/animal.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Animal
+                        </div>
+                        <div class="artist-title">
+                            Manan Bhardwaj, Vishal Mishra, Jaani
+                        </div>
+                    </div>
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/stillrollin.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Still Rollin
+                        </div>
+                        <div class="artist-title">
+                            Shubh
+                        </div>
+                    </div>
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/moosetape.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Moosetape
+                        </div>
+                        <div class="artist-title">
+                            Sidhu Moose Wala
+                        </div>
+                    </div>
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/ghost.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Ghost
+                        </div>
+                        <div class="artist-title">
+                            Diljit Dosanjh
+                        </div>
+                    </div>
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/husn.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Husn
+                        </div>
+                        <div class="artist-title">
+                            Anuv Jain
+                        </div>
+                    </div>
+                    <div class="card flex-column border">
+                        <div class="play absolute">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="button-icon">
+                                <path fill="black"
+                                    d="m7.05 3.606 13.49 7.788a.7.7 0 0 1 0 1.212L7.05 20.394A.7.7 0 0 1 6 19.788V4.212a.7.7 0 0 1 1.05-.606z" />
+                            </svg>
+                        </div>
+                        <div class="image flex justify-center items-center">
+                            <img class="album-img" src="Assets/makingmemories.jpeg" alt="">
+                        </div>
+                        <div class="artist-name">
+                            Making Memories
+                        </div>
+                        <div class="artist-title">
+                            Karan Aujla, Ikky
+                        </div>
+                    </div>  
+                </div>
+
+
+
+                <footer class="flex space-between">
+                    <div class="spotify-details flex">
+                        <div class="company flex-column">
+                            <div class="foot-head-name">Company</div>
+                            <div class="company-detail flex-column">
+                                <div>About</div>
+                                <div>Jobs</div>
+                                <div>For the Record</div>
+                            </div>
+                        </div>
+
+                        <div class="communities flex-column">
+                            <div class="foot-head-name">Communities</div>
+                            <div class="communities-detail flex-column">
+                                <div>For Artists</div>
+                                <div>Developers</div>
+                                <div>Advertising</div>
+                                <div>Investors</div>
+                                <div>Vendors</div>
+                            </div>
+                        </div>
+
+                        <div class="useful-links flex-column">
+                            <div class="foot-head-name">Useful links</div>
+                            <div class="links-detail flex-column">
+                                <div>Support</div>
+                                <div>Free Mobile App</div>
+                            </div>
+                        </div>
+
+                        <div class="communities flex-column">
+                            <div class="foot-head-name">Spotify Plans</div>
+                            <div class="communities-detail flex-column">
+                                <div>Premium Individual</div>
+                                <div>Premium Duo</div>
+                                <div>Premium Family</div>
+                                <div>Student</div>
+                                <div>Spotify Free</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="weblinks flex">
+                        <a href="https://www.instagram.com/" target="_blank" class="links-box border lightgrey">
+                            <div class="link-box"><img src="SVG/insta.svg" class="web-img invert" alt=""></div>
+                        </a>
+                        <a href="https://www.twitter.com/" target="_blank" class="links-box border lightgrey">
+                            <div class="link-box"><img src="SVG/x.svg" class="web-img invert" alt=""></div>
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" class="links-box border lightgrey">
+                            <div class="link-box"><img src="SVG/facebook.svg" class="web-img invert" alt=""></div>
+                        </a>
+                    </div>
+                </footer>
+
+                <hr class="line">
+
+                <div class="copyright">
+                    © 2024 Spotify AB
+                </div>
+
+
+
+            </div>
+
+            <div class="playbar flex-column justify-center">
+                <div class="song-info">
+                </div>
+                <div class="seekbar">
+                    <div class="circle">
+
+                    </div>
+                </div>
+                <div class="songbutton items-center flex ">
+                    <div><img id="previous" src="SVG/previous-song.svg" class="invert" alt=""></div>
+                    <div><img id="play" src="SVG/play.svg" class="invert" alt=""></div>
+                    <div><img id="next" src="SVG/next-song.svg" class="invert" alt=""></div>
+                    <div class="timevol flex">
+                        <div class="song-time"></div>
+                        <div class="volume flex items-center">
+                            <img src="SVG/volume.svg" class="flex invert" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="preview-box fixed border">
+        <div class="preview-detail flex space-between border">
+            <div class="preview">
+                <div class="preview-content">Preview of Spotify</div>
+                <div class="preview-content">Sign up to get unlimited songs and podcasts with occasional ads. No credit
+                    card needed.</div>
+            </div>
+            <div class="signupfree">
+                <button class="Signupfree login signin">
+                    Sign up free
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
